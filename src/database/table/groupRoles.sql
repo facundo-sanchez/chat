@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS group_roles (
+  id INT NOT NULL,
+  name VARCHAR(150) NOT NULL,
+  CONSTRAINT group_roles_pk PRIMARY KEY (id)
+);

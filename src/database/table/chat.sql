@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS chats (
+  id INT NOT NULL,
+  chat_type_id INT NOT NULL,
+  name VARCHAR(255) NULL,
+  CONSTRAINT chats_pk PRIMARY KEY (id)
+);
